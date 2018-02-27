@@ -19,3 +19,20 @@
 //   // It will run for all other conditions except when n is equal to 0
 //   return n * factorial(n - 1);
 // }
+
+// ------------------------
+
+// ITERATIVE
+
+// worst case: O(n) Linear
+// average case: O(n) Linear
+// best case: O(n) Linear
+
+// function factorialIterative(number){
+//     let fact = 1;
+//     for (let i = 1; i <= number; i++){
+//         fact *= i;
+//     }
+//     return fact;
+//  }
+//  console.log(factorialIterative(5));

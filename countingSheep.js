@@ -1,3 +1,5 @@
+// RECURSIVE
+
 // worst case: O(n) linear
 // average case: O(n) linear
 // best case: O(n) linear
@@ -20,3 +22,18 @@
 //     countSheep(num - 1);
 //   }
 // }
+
+// ------------------------
+
+// ITERATIVE
+
+// worst case: O(n) linear
+// average case: O(n) linear
+// best case: O(n) linear
+
+// function countSheepLoop(num){
+//     for(let i=num; i>0; i--){
+//         console.log(`counting sheeps ${i}`);
+//     }
+// }
+// countSheepLoop(10);

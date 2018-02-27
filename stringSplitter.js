@@ -21,3 +21,26 @@
 // }
 
 // console.log(split('jan,feb,mar,apr,may,june,july,aug,sept,oct,nov,dec', ','));
+
+
+// ------------------------
+
+// ITERATIVE
+
+// worst case: O(n) linear
+// average case: O(n) linear
+// best case: O(n) linear
+
+// 'use strict';
+
+// function split(str, sep) {
+//   var ret = [];
+//   while (true) {
+//     var idx = str.indexOf(sep);
+//     if (idx == -1) break;
+//     ret.push(str.slice(0, idx));
+//     str = str.slice(idx + sep.length);
+//   }
+//   ret.push(str);
+//   return ret;
+// }

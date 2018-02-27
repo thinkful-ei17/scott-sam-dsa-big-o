@@ -26,3 +26,24 @@
 // console.log(convertToBinary(10000));
 // console.log(convertToBinary(100000));
 // console.log(convertToBinary(1000000));
+
+// ------------------------
+
+// ITERATIVE
+
+// best-case: O(log(n)) Logarithmic
+// worst-case: O(log(n)) Logarithmic
+// average-case: O(log(n)) Logarithmic
+
+// function convertToBinaryIter(num){
+//   var binary = '';
+//   while(num>0){
+//       let rem = Math.floor(num%2);
+//       binary = rem + binary;
+//       num = Math.floor(num/2);
+//   }
+//   return binary;
+
+
+// }
+// console.log(convertToBinaryIter(124));
