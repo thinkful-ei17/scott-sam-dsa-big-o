@@ -1,6 +1,6 @@
 // worst case: O(n^2) Polynomial (Quadratic)
 // average case: O(n^2) Polynomial (Quadratic)
-// best case: O(n^2) Polynomial (Quadratic)
+// best case: O(n^2) Polynomial (Quadratic)  This apparently is O(n) because the second loop doesn't run if there is only one number
 
 // justification:  
 
